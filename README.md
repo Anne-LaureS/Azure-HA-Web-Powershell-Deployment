@@ -32,10 +32,7 @@ Connect-AzAccount
 
 ```
 .
-├── Scripts/
-│   └── deploy-ha-web.ps1
-├── Cleanup/
-│   └── remove-resources.ps1
+├── deploy-ha-web.ps1
 └── README.md
 ```
 
