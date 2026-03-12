@@ -153,7 +153,3 @@ New-AzConsumptionBudget -Name $budgetName `
     -Scope "/subscriptions/$subscriptionId" | Out-Null
 
 Write-Host "Budget créé pour $budgetAmount EUR / mois avec alerte à 80%." -ForegroundColor Green
-
-# ---------- 10. Nettoyage (à lancer à la fin) ----------
-# Quand tout est validé et les captures faites :
-# Remove-AzResourceGroup -Name $rgName -Force -AsJob
