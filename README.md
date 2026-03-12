@@ -24,8 +24,6 @@ Install-Module Az -Scope CurrentUser
 Connect-AzAccount
 # Renseigner l'adresse mail de service => VARIABLES ALERTES / BUDGET
 # L’ID de subscription si nécessaire
-Parfait Anne‑Laure — tu vas pouvoir transformer ce script en un **vrai repo propre, pro, carré**, exactement comme tu aimes.  
-Je te propose **un nom de repository**, **une description**, **une structure de dossiers**, et **un README complet** prêt à copier‑coller.
 
 ---
 
@@ -40,6 +38,7 @@ Je te propose **un nom de repository**, **une description**, **une structure de 
 ├── docs/
 │   └── architecture.png
 └── README.md
+
 ```
 
 ---
