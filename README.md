@@ -32,6 +32,7 @@ Je te propose **un nom de repository**, **une description**, **une structure de 
 ## 📁 Structure du projet
 
 ```
+.
 ├── scripts/
 │   └── deploy-ha-web.ps1
 ├── cleanup/
@@ -71,8 +72,8 @@ Le script réalise automatiquement :
             └────────────────┘
               │            │
         ┌─────────┐   ┌─────────┐
-        │  VM1     │   │  VM2     │
-        │ Nginx    │   │ Nginx    │
+        │  VM1    │   │  VM2    │
+        │ Nginx   │   │ Nginx   │
         └─────────┘   └─────────┘
               \        /
            Availability Set
