@@ -1,4 +1,4 @@
-# 🌩️ Azure – Architecture Web Haute Disponibilité (HA) + Load Balancer + Supervision + Budget
+# ☁️ Azure – Architecture Web Haute Disponibilité (HA) + Load Balancer + Supervision + Budget
 Déploiement complet d’une architecture Web haute disponibilité sur Azure (Load Balancer, Availability Set, VMs, supervision, alertes et budget) via un script PowerShell automatisé, reproductible et documenté. Région : France Central.  
 
 Ce projet automatise la création d’un environnement complet incluant :
