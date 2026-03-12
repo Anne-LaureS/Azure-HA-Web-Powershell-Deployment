@@ -24,12 +24,13 @@ Install-Module Az -Scope CurrentUser
 Connect-AzAccount
 # Renseigner l'adresse mail de service => VARIABLES ALERTES / BUDGET
 # L’ID de subscription si nécessaire
+```
 
 ---
 
 ## 📁 Structure du projet
 
-```text
+```
 .
 ├── scripts/
 │   └── deploy-ha-web.ps1
