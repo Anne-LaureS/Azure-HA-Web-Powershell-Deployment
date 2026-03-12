@@ -3,7 +3,7 @@
 # Région : France Central / VM : B1s / Disque : StandardSSD
 # ============================
 
-# Renseigner le mot de passe Admin et le nom de l'utilisateur
+# Renseigner le mot de passe Admin et le nom de l'utilisateur => VARIABLES GLOBALES
 # Renseigner l'adresse mail de service => VARIABLES ALERTES / BUDGET 
 
 # ---------- Variables globales ----------
