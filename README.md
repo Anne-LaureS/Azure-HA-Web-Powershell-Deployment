@@ -29,7 +29,7 @@ Connect-AzAccount
 
 ## 📁 Structure du projet
 
-```
+```text
 .
 ├── scripts/
 │   └── deploy-ha-web.ps1
@@ -38,10 +38,10 @@ Connect-AzAccount
 ├── docs/
 │   └── architecture.png
 └── README.md
-
 ```
 
 ---
+
 ## 🚀 Déploiement
 
 Exécuter simplement :
