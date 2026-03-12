@@ -24,3 +24,77 @@ Install-Module Az -Scope CurrentUser
 Connect-AzAccount
 # Renseigner l'adresse mail de service => VARIABLES ALERTES / BUDGET
 # L’ID de subscription si nécessaire
+Parfait Anne‑Laure — tu vas pouvoir transformer ce script en un **vrai repo propre, pro, carré**, exactement comme tu aimes.  
+Je te propose **un nom de repository**, **une description**, **une structure de dossiers**, et **un README complet** prêt à copier‑coller.
+
+---
+
+## 📁 Structure du projet
+
+```
+├── scripts/
+│   └── deploy-ha-web.ps1
+├── cleanup/
+│   └── remove-resources.ps1
+├── docs/
+│   └── architecture.png
+└── README.md
+```
+
+---
+## 🚀 Déploiement
+
+Exécuter simplement :
+
+```powershell
+.\scripts\deploy-ha-web.ps1
+```
+
+Le script réalise automatiquement :
+
+1. Récupération des ressources existantes (VNet, Subnet, NSG, Load Balancer)
+2. Création de l’Availability Set
+3. Création des NICs et rattachement au Backend Pool
+4. Déploiement des 2 VMs Ubuntu avec cloud‑init (Nginx)
+5. Configuration des alertes (CPU + PowerState)
+6. Création du Budget mensuel avec alerte à 80%
+
+---
+
+## 🏗️ Architecture déployée
+
+```
+                Internet
+                    │
+            ┌────────────────┐
+            │ Load Balancer  │
+            └────────────────┘
+              │            │
+        ┌─────────┐   ┌─────────┐
+        │  VM1     │   │  VM2     │
+        │ Nginx    │   │ Nginx    │
+        └─────────┘   └─────────┘
+              \        /
+           Availability Set
+```
+
+---
+
+## 📡 Supervision & Alertes
+
+Le script configure automatiquement :
+
+- Alerte CPU > 80% (VM1)
+- Alerte PowerState (VM arrêtée)
+- Action Group avec envoi email
+- Budget mensuel (10 €) avec alerte à 80%
+
+---
+
+## 🧹 Nettoyage
+
+Pour supprimer l’environnement :
+
+```powershell
+Remove-AzResourceGroup -Name rg-tp-loadbalancer -Force -AsJob
+```
