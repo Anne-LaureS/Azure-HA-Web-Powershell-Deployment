@@ -4,7 +4,14 @@ Déploiement complet d’une architecture Web haute disponibilité sur Azure (Lo
 ![Azure](https://img.shields.io/badge/Azure-0089D6?logo=microsoft-azure&logoColor=white)
 ![High Availability](https://img.shields.io/badge/High%20Availability-HA-blue)
 ![Load Balancer](https://img.shields.io/badge/Azure%20Load%20Balancer-4C8BF5?logo=microsoft-azure&logoColor=white)
-![Availability Set](https://img.shields.io/badge/Availability%20Set-0063B1)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white)
+![IaC](https://img.shields.io/badge/IaC-Infrastructure%20as%20Code-orange)
+![Azure Monitor](https://img.shields.io/badge/Azure%20Monitor-5C2D91?logo=microsoft-azure&logoColor=white)
+![Alerts](https://img.shields.io/badge/Alerts-Enabled-red)
+![Azure Budget](https://img.shields.io/badge/Budget-Control-8A2BE2)
+![Region](https://img.shields.io/badge/France%20Central-Region-blue)
+![Status](https://img.shields.io/badge/Status-Stable-success)
+![Documentation](https://img.shields.io/badge/Docs-Complete-brightgreen)
 
 Ce projet automatise la création d’un environnement complet incluant :
 
