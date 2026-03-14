@@ -1,11 +1,11 @@
 # ☁️ Azure – Architecture Web Haute Disponibilité (HA) + Load Balancer + Supervision + Budget
 Déploiement complet d’une architecture Web haute disponibilité sur Azure (Load Balancer, Availability Set, VMs, supervision, alertes et budget) via un script PowerShell automatisé, reproductible et documenté. Région : France Central.  
 
-![Azure](https://img.shields.io/badge/Azure-0089D6?logo=microsoft-azure&logoColor=white)
 ![High Availability](https://img.shields.io/badge/High%20Availability-HA-blue)
-![Load Balancer](https://img.shields.io/badge/Azure%20Load%20Balancer-4C8BF5?logo=microsoft-azure&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white)
-![Azure Monitor](https://img.shields.io/badge/Azure%20Monitor-5C2D91?logo=microsoft-azure&logoColor=white)
+![Azure Load Balancer](https://img.shields.io/badge/Azure%20Load%20Balancer-4C8BF5?logo=microsoft-azure&logoColor=white)
+![Region](https://img.shields.io/badge/France%20Central-Region-blue)
+![Monitoring](https://img.shields.io/badge/Monitoring-Azure%20Monitor-5C2D91?logo=microsoft-azure&logoColor=white)
+![Automation](https://img.shields.io/badge/Automation-PowerShell-5391FE?logo=powershell&logoColor=white)
 
 Ce projet automatise la création d’un environnement complet incluant :
 
